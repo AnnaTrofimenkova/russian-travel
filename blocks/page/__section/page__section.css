@@ -1,0 +1,13 @@
+.page__section {
+  margin-top: 92px;
+}
+@media (max-width: 768px) {
+  .page__section {
+    margin-top: 88px;
+  }
+}
+@media (max-width: 320px) {
+ .page__section {
+    margin-top: 64px;
+  }
+}

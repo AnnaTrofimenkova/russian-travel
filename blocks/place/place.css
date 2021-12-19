@@ -1,0 +1,38 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title web-site "
+    "img ph"
+    "img ph";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 984px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  height: fit-content;
+}
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .place {
+    margin-bottom: 73px;
+    max-width: 720px;
+  }
+}
+@media (max-width: 700px) {
+   .place {
+    margin-bottom: 46px;
+    grid-template-columns: repeat(1, auto);
+    grid-template-areas:
+      "title"
+      "web-site "
+      "img"
+      "ph";
+      justify-content: center;
+  }
+}

@@ -1,0 +1,33 @@
+.cover__overlay {
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 740px;
+  width: 100%;
+  background-color: rgb(42,44,47, 0.3);
+  background-position: center;
+  background-size: cover;
+}
+.cover:hover .cover__overlay {
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(42,44,47, 0.8);
+}
+@media (max-width: 1024px) {
+  .cover__overlay {
+    height: 640px;
+  }
+}
+@media (max-width: 768px) {
+  .cover__overlay {
+    height: 480px;
+  }
+}
+@media (max-width: 320px) {
+  .cover__overlay {
+    height: 200px;
+  }
+}

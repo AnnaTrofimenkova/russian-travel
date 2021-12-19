@@ -1,0 +1,32 @@
+.cover {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1184px;
+  min-height: 740px;
+  background-image: url(../../images/__background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+@media (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+@media (max-width: 768px) {
+   .cover {
+    min-height: 480px;
+  }
+}
+@media (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
+}
